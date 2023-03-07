@@ -48,6 +48,11 @@ namespace MethodsExercise
             return num1 / num2;
         }
 
+        public static int Modulus(int num1, int num2)
+        {
+            return num1 % num2;
+        }
+
         //Optional (Challenge Mode):
         public static int Add(params int[] nums)
         {
